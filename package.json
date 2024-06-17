@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node dist/index.js",
     "dev": "tsup src/index.ts --watch --onSuccess 'node dist/index.js'",
-    "build": "tsup src/index.ts",
+    "build": "tsup src/index.ts --sourcemap",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
     "test": "jest"
   },
